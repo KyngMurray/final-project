@@ -1,46 +1,27 @@
-# Final Project
+# Guess-the-State
 
-In this project, you'll build a web application that does anything you want! 
+Game that gives players 10 tries to guess a state
 
-It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
+Can You Guess State?
 
-## Requirements
+This is a javascript game in which you have to guess the state based on hangman style.
 
-* **Your app has at least three distinct "features"**
-  * If you are building a travel planning application, one feature could be allowing users to create a new trip
-* Your project has at least ten commits in git
-* Your app is mobile responsive
-* Your project contains a `README.md` file that explains what your project is and how to use it
-* Your project is hosted on GitHub pages
-* Your code is clean
-  * Proper indentation
-  * No unnecessary repetition
-  * Variables as camelCase
+Technologies Used:
 
-## Project ideas
+HTML
+CSS
+Bootstrap 
+Javascript
+Animate CSS
+Sound
 
-* Travel planner
-* Budget manager
-* Resume builder
-* Shift scheduling app
-* Chat bot
-* Music making app
-* Games
-  * PacMan
-  * Chess
-* Do something with an external API: https://github.com/public-apis/public-apis
-  * Slack / discord bot
-  * Recreate Reddit
-  * Pokedex
+The game will have the following features:
 
-And so many more possibilities!
+An animated progress (health bar) bar that will change colors
+Alerts to warn users of failed attempts once they pass the 50% health meter. 
+It will include an animated image of my Bit emoji when they when win or lose the game. 
+It will contain self storage to keep track of the wins and losses. 
 
-## Recommendations
+Game Preview
 
-* Start out by creating your project's foundation in HTML.
-* Frequently make commmits in git to save your progress.
-* Build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
-* Keep your code meticulously organized as you go. 
-* Use proper indentation, whitespace, and comments. 
-* Try to write a function for each separate piece of functionality that exists in your code. This will make your code "modular" and easier to build off of.
-* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition.
+<img width="1084" alt="github Image" src="https://user-images.githubusercontent.com/98352141/165121939-54a14ca0-c5bf-4ec2-b843-3a1bc8c4c01b.png">
