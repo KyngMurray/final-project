@@ -1,0 +1,105 @@
+/*This is the animation used to change the title to multiple colors. It is a infinite loop 
+A key frame (or keyframe) in animation and filmmaking is a drawing or shot that defines the starting and ending points of any smooth transition.
+
+
+** unintentional consequence of using multiple H1 tags... Initially only wanted the main Title H1 to change colors but when I got the answer right or 
+wrong, then answer started to change as well. It looked good so I left it as is. 
+
+
+https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3*/ 
+h1{
+    animation: color-change 1s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    25% { color: lightgreen;}
+    50% { color: blue; }
+    75% { color: pink;}
+    100% { color: yellow; }
+  }
+  
+
+
+.jumbotron{
+    margin-top: 10px;
+}
+
+
+body{
+    background-color: #74c4f1;
+}
+
+/*em is not an absolute unit - it is a unit that is relative to the currently chosen font size. Unless you have overridden font style by setting your font size with an absolute unit (such as px or pt), this will be affected by the choice of fonts in the user's browser or OS if they have made one, so it does not make sense to use em as a general unit of length except where you specifically want it to scale as the font size scales.
+
+Use em when you specifically want the size of something to depend on the current font size. */
+.title
+{
+    color: #FFF;
+    font-size: 3.9em;
+    font-family: 'Bowlby One SC', cursive;
+    margin-left: -50px;
+    margin-top: 20px;
+    
+}
+
+.subtitle
+{
+    color: seagreen;
+    font-size: 1.0em;
+    font-family: 'Bowlby One SC', cursive;
+    margin-left: -50px;
+    margin-top: 20px;
+    
+}
+.card
+{
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.wrongGuesses
+{
+    color: #FFF;
+}
+
+.logo
+{
+    width: 100px;
+}
+
+.row
+{
+    padding-top: 20px;
+}
+
+#greatJobCorrect{
+    display: none;
+    width: 25%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#coachK{
+    display: none;
+    width: 25%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.display-4
+{
+    font-size: 8.0em;
+    text-align: center;
+}
+
+.scroll
+{
+    color: #FFF;
+    font-size: 3.9em;
+    font-family: 'Bowlby One SC', cursive;
+ 
+}
